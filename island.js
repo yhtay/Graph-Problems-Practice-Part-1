@@ -1,7 +1,7 @@
 function getNeighbors(row, col, graph) {
-
+    let neighbors = [];
   // Check top
-
+    if (row - 1 >= 0 && graph[row - 1][col] === 1) neighbors.push([row - 1, col]);
   // Check bottom
 
   // Check left
